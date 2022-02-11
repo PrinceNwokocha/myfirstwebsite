@@ -1,0 +1,139 @@
+p {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-style: bold;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+ol li {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-style: bold;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+ol li a {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    font-style: bold;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+}
+ol li :hover {
+    color: yellow;
+}
+
+h1 {
+    color: gold;
+    font-size: 40px;
+    text-align: center;
+    box-sizing: center;
+}
+
+h2 {
+    color: gold;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding-left: 25px;
+}
+
+.navbar {
+    text-align: center;
+    font-size: 15px;
+    color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar a {
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px;
+    border-style: outset;
+    border-color: black;
+    color: whitesmoke;
+    background-color: rgb(88, 3, 114);
+    text-decoration: none;
+}
+
+.background {
+    background: url("final_image_background.webp"); 
+    background-size: cover;
+}
+
+.logo {  
+    text-align: center;
+}
+
+.para3 img {
+    box-sizing: border-box;
+    padding-left: 25px;
+}
+
+.para4 img {
+    box-sizing: border-box;
+    padding-left: 25px;
+    width: 250px;
+    height: 250px;
+}
+
+.para1_about_me {
+    box-sizing: content-box;
+    display: flex;
+    text-align: left;
+}
+
+.para1_about_me img {
+    box-sizing: border-box;
+    padding-left: 25px;
+    height: 260px; 
+}
+
+.para1_about_me a {
+    color: yellow;
+    text-decoration: none;
+}
+
+iframe {
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 100px;
+}
+
+.para2_about_me img {
+    box-sizing: border-box;
+    padding-left: 25px;
+    width: 250px;
+    height: 250px;
+}
+
+.intro_contact_me {
+    padding-top: 25px;
+}
+
+.para1_contact_me img{
+    float: right;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+.boxtext {
+    display: flex;
+    flex-direction: right;
+    justify-content: center;
+    align-items: right;
+    text-align: right;
+    border-style: outset;
+    color: gold;
+    border-color: whitesmoke;
+    margin: 25px;
+    margin-right: 35px;
+}
